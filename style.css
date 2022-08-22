@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
-*{
- padding: 0px;
- margin: 0px;
- box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.testimonial-section {
+body {
   background-color: hsl(210, 46%, 95%);
   height: 100vh;
   font-family: 'Barlow Semi Condensed'; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonial-container {
-  width: 80%;
-  margin: auto;
+  max-width: fit-content;
   display: grid;
-  grid-template-rows: 50%;
+  grid-auto-rows: 300px;
+  grid-auto-columns: 250px;
   grid-template-areas: 
   'daniel daniel jonathan kira'
   'jeanette patrick patrick kira';
   grid-gap: 20px;
-  border: 1px solid red;
-  /* justify-content: center;
-  align-content: center; */
 }
 
 .card {
@@ -31,13 +31,14 @@
   padding: 15px 30px;
   border: none;
   align-content: center;
+  box-shadow: 10px 10px 19px 0px rgba(173, 173, 173, 0.46);
 }
 
 
 .card_quote {
   margin: 20px 0;
   line-height: 1.2em;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
 }
 
