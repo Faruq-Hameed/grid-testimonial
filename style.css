@@ -134,33 +134,3 @@ img[name="patrick"] {
   }
     
 }
-
-
-
-/* 
-@media (max-width:375px ) {
-  .testimonial-container{
-    display: grid;
-    grid-template-areas:'daniel' 'jonathan' 'jeanette' 'patrick' 'kira';
-  }
-
-  .daniel_card{
-    grid-area: daniel;
-  }
-
-  .jonathan_card{
-    grid-area: jonathan;
-  }
-
-  .jeanette_card{
-    grid-area: jeanette;
-  }
-
-  .patrick_card{
-    grid-area: patrick;
-  }
-
-  .kira_card{
-    grid-area: kira;
-  }
-} */
