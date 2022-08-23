@@ -130,7 +130,7 @@ img[name="patrick"] {
     flex-direction: column;
     height: fit-content;
     margin: auto;
-    padding: 0px 10px 0px 13px;
+    padding: 0px 10px;
   }
     
 }
